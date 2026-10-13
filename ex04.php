@@ -17,8 +17,7 @@ $v1_str = (string)$v1;
 echo "<p>Conversion de \"42\" en entier : ";
 var_dump($v2_int);
 echo "</p>";
-
-echo "<p>Conversion de \"15.8\" en entier : ";
+echo "<p>Conversion de  \"15.8\" en entier : ";
 var_dump($v3_int);
 echo "</p>";
 
@@ -31,7 +30,7 @@ echo "<p>Affichage de false avec echo : " . $v5 . " (bool false s'affiche sous f
 
 echo "<pre>";
 echo "var_dump(true) : "; var_dump($v4);
-echo "var_dump(false) : "; var_dump($v5);
+echo "var_dump(false) : "; var_dump($v5); 
 echo "</pre>";
 
 $b1 = (bool)0;
@@ -41,5 +40,5 @@ $b4 = (bool)[];
 
 echo "<pre>";
 var_dump($b1, $b2, $b3, $b4);
-echo "</pre>";
+echo "</pre>"; 
 ?>
