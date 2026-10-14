@@ -42,3 +42,4 @@
 ## Exercice 10:
 * **Methode GET ('ex10_get.html' -> 'ex10_get.php') :** les donnees  transmises par le formulaire sont ajoutees directement a la fin de l'URL dans la barre d'adresse du navigateur. Elles sont donc vidibles et adaptes a la transmission de parametres non sensibles.
 * **Methode POST ('ex10_post.html' -> 'ex10_post.php') :** les donnees tranmises sont integree dans le corps de la requeste HTTP. L'URL reste propre sans affivher les parametres saisies, ce qui est preferable pour la confidentialite ou l'envoi de donnees valumineuses.
+ 
