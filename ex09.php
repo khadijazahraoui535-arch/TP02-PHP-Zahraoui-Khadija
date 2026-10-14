@@ -5,11 +5,10 @@ $notes = [
     "Youssef" => 8,
     "Lina" => 14,
     "Adam" => 10
-];
-
+]; 
 
 echo "<table border='1' cellpadding='5'>";
-echo "<tr><th>Étudiant</th><th>Note</th><th>Validé</th></tr>";
+echo "<tr><th>Étudiant</th><th>Note</th><th>Validé</th></tr>"; 
 
 $somme = 0;
 $nombreEtudiants = count($notes);
@@ -36,14 +35,10 @@ foreach ($notes as $nom => $note) {
 }
 echo "</table>";
 
-
 $moyenneClasse = $somme / $nombreEtudiants;
 
 echo "<p>Somme des notes : $somme</p>";
 echo "<p>Moyenne de la classe : $moyenneClasse</p>";
-
 echo "<p>Nombre d'étudiants ayant validé : $etudiantsValides</p>";
-
-
 echo "<p>Meilleure note : $meilleureNote par $meilleurEtudiant</p>";
 ?>
