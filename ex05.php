@@ -17,4 +17,4 @@ if ($moyenne < 0 || $moyenne > 20) {
         echo "Très bien";
     }
 }
-?>
+?> 
