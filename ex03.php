@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <title>Exercice 3</title>
 </head>
-<body>
+<body> 
 <?php
-define("TAUX_TVA" , 20);
-define("DEVISE" , "MAD");
+define("TAUX_TVA" , 20); 
+define("DEVISE" , "MAD"); 
 $prix_unit_ht = 60;
-$quantite = 3;
+$quantite = 3; 
 $frais_livraison = 15
 $total_ttc += $frais_livraison ;
 echo "<h2>Recapitulatif de la commande</h2>";
