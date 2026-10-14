@@ -41,4 +41,4 @@ $b4 = (bool)[];
 echo "<pre>";
 var_dump($b1, $b2, $b3, $b4);
 echo "</pre>"; 
-?>
+?> 
