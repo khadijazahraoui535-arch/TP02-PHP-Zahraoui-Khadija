@@ -20,4 +20,4 @@ for ($ligne = 1; $ligne <= 6; $ligne++) {
 }
 echo "</pre>";
 echo "</section>";
-?>
+?> 
